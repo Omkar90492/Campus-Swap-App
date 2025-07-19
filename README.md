@@ -20,4 +20,4 @@ Campus Swap App is a mobile platform for students to securely swap books, gadget
 3. Build & run on Android device or emulator
 
 ## ✍️ Authors
-Omkar Shinde, Gaurav Koli, Yogesh Kalel, Gopikrushna Mane
+Omkar Shinde
