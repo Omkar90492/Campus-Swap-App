@@ -1,23 +1,113 @@
-# Campus Swap App
+# 📱 Campus Swap App
 
-Campus Swap App is a mobile platform for students to securely swap books, gadgets, and accessories within their campus.
+A secure Android-based mobile application that allows students to swap books, electronics, and accessories within their campus community. Built with Firebase for backend services and Java/XML for the frontend, the app promotes sustainability through reuse and structured peer-to-peer exchanges.
 
-## 🔧 Features
-- Secure login via email or student ID
-- Post items with images and descriptions
-- Browse categorized listings with filters
-- Real-time chat with other students
-- Location-based matching for safe exchanges
+---
 
-## 🛠️ Technologies Used
-- Java, XML
-- Android Studio
-- Firebase Authentication, Firestore, Storage, Messaging
+## ⚙️ Features
 
-## 🚀 How to Run
-1. Open in Android Studio
-2. Connect Firebase & add `google-services.json`
-3. Build & run on Android device or emulator
+- ✅ Trains 3 robust classification models  
+- ⚖️ Addresses class imbalance using **SMOTE**  
+- 📊 Outputs detailed model metrics  
+- 💾 Saves trained models for reuse  
+- 💡 Easy to extend (e.g., add a web UI)
 
-## ✍️ Authors
-Omkar Shinde
+---
+
+📁 Project Structure
+-------------------
+- 🔐 **Secure Student Login/Signup** using Firebase Authentication
+- 📦 **Item Upload** with title, description, image, and category
+- 🔍 **Browse & Search** listings using filters and categories
+- 💬 **Real-Time Chat** for in-app communication *(to be added)*
+- 📄 **User Profile** with listed item management
+- 📍 **Location-Based Matching** *(future enhancement)*
+- 🔔 **Push Notifications** using Firebase Cloud Messaging *(planned)*
+
+---
+
+
+## 🧠 Tech Stack
+
+- **Frontend:** Java (Android), XML
+- **Backend:** Firebase Authentication, Firestore, Storage, FCM
+- **IDE:** Android Studio
+  
+---
+
+## 🚀 How to Run the Project
+
+---
+
+### 🔌 Firebase Setup
+
+1. Go to [Firebase Console](https://console.firebase.google.com/)
+2. Create a project and register an Android app
+3. Download the `google-services.json` file
+4. Place it in the `app/` folder of this project
+
+### 📲 Run the App
+
+**Step 1. Clone or extract the project:**
+   
+   git clone https://github.com/yourusername/CampusSwapApp.git
+
+**Step 2. Open it in Android Studio**
+
+**Step 3. Sync Gradle**
+
+**Step 4. Connect a device or emulator**
+
+**Step 5. Run the app**
+
+
+---
+
+## 📌 Results
+
+## 📈 Accuracy Chart
+![Accuracy](images/accuracy_comparison.png)
+
+## 🧪 Confusion Matrix - XGBoost
+![XGBoost](images/confusion_matrix_xgboost.png)
+
+## 🌲 Confusion Matrix - Random Forest
+![RandomForest](images/confusion_matrix_randomforest.png)
+
+## 💻 Confusion Matrix - SVC
+![SVC](images/confusion_matrix_svc.png)
+
+---
+
+##🚀 Quick Tips
+-------------
+- Ensure Firebase Authentication (Email/Password) is enabled.
+- Firestore and Firebase Storage must be initialized.
+- You can view uploaded items in your Firebase console under:
+  Firestore: /items
+  Storage: /items/
+---
+
+## ✅ 📦 Prerequisites
+
+- Android Studio installed
+- Firebase account
+- Physical or virtual Android device
+
+
+---
+
+## ✅ 📌 Conclusion
+
+The Campus Swap App offers a complete, scalable, and sustainable solution for campus-based item exchanges. It fosters community collaboration, reduces waste, and simplifies the process of listing and swapping items in a trusted environment.
+
+
+---
+
+## ✅ 📌 Key outcomes
+
+🧑‍🎓 Students were able to securely log in and manage listings
+📥 Efficient upload and discovery of items
+🔍 Structured and fast searching improved swap success rate
+📡 Firebase integration proved scalable and responsive
+🔐 Secure and spam-free due to authentication
