@@ -63,17 +63,17 @@ A secure Android-based mobile application that allows students to swap books, el
 
 ## 📌 Results
 
-## 📈 Accuracy Chart
-![Accuracy](images/accuracy_comparison.png)
+## 📸 Screenshots
 
-## 🧪 Confusion Matrix - XGBoost
-![XGBoost](images/confusion_matrix_xgboost.png)
+### 🔹 Registration & Login Page
+![Registration](https://raw.githubusercontent.com/Omkar90492/Campus-Swap-App/main/image/image%201.png)
 
-## 🌲 Confusion Matrix - Random Forest
-![RandomForest](images/confusion_matrix_randomforest.png)
+### 🔹 Item Upload Page
+![Upload Item](https://raw.githubusercontent.com/Omkar90492/Campus-Swap-App/main/image/image%202.png)
 
-## 💻 Confusion Matrix - SVC
-![SVC](images/confusion_matrix_svc.png)
+### 🔹 Browse Listings / Dashboard
+![Browse Items](https://raw.githubusercontent.com/Omkar90492/Campus-Swap-App/main/image/image%203.png)
+
 
 ---
 
