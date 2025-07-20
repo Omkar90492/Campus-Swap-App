@@ -37,8 +37,6 @@ A secure Android-based mobile application that allows students to swap books, el
 
 ## 🚀 How to Run the Project
 
----
-
 ### 🔌 Firebase Setup
 
 1. Go to [Firebase Console](https://console.firebase.google.com/)
