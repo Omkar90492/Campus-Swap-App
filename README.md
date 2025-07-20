@@ -48,7 +48,8 @@ A secure Android-based mobile application that allows students to swap books, el
 
 **Step 1. Clone or extract the project:**
    
-   git clone https://github.com/yourusername/CampusSwapApp.git
+   git clone 
+   https://github.com/yourusername/CampusSwapApp.git
 
 **Step 2. Open it in Android Studio**
 
