@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="42dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <!-- Soft Shadow Background -->
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M5,9Q5,1,16,1L32,1Q43,1,43,9L43,39Q43,47,32,47L16,47Q5,47,5,39L5,9Z" />
+
+    <!-- Outer Card with White Fill & Dark Border -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M8,12Q8,4,16,4L32,4Q40,4,40,12L40,36Q40,44,32,44L16,44Q8,44,8,36L8,12Z"
+        android:strokeWidth="1.5"
+        android:strokeColor="@color/white" />
+
+    <!-- Inner Background with Faux Gradient (Top Shine) -->
+    <!-- Bottom base color -->
+    <path
+        android:fillColor="#64C9F5"
+        android:pathData="M10,14Q10,6,18,6L30,6Q38,6,38,14L38,34Q38,42,30,42L18,42Q10,42,10,34L10,14Z" />
+    <!-- Top shine overlay -->
+    <path
+        android:fillColor="#9E6DF1"
+        android:fillAlpha="0.3"
+        android:pathData="M10,14Q10,6,18,6L30,6Q38,6,38,14L38,22Q10,22,10,14Z" />
+
+    <!-- Stylized Image Placeholder -->
+    <path
+        android:fillColor="#81D4FA"
+        android:pathData="M14,30L20,24L24,28L30,22L36,28L36,32Q36,40,28,40L16,40Q14,40,14,38Z" />
+
+    <!-- Circular Bubble for Camera or Image Dot -->
+    <path
+        android:fillColor="#FFFFE0"
+        android:pathData="M20,16 A4,4 0 1,1 16,20 A4,4 0 0,1 20,16Z" />
+
+    <!-- Glowing Plus Symbol with Stroke -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#A0F6FF"
+        android:strokeWidth="0.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M32,8H36V12H40V16H36V20H32V16H28V12H32Z" />
+</vector>
